@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 4vh;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container button{
+   width: 10vw;
+   height: 4vh;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+}
+.container button:nth-child(1){
+   background-color: green;
+}
+.container button:nth-child(2){
+   background-color: rgb(145, 13, 13);
+}
+.container button:nth-child(3){
+   background-color: blue;
+}
