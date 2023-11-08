@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.body{
+    height: 1000px;
+}
 .container{
     display: flex;
     align-items: center;
@@ -35,4 +37,10 @@ h1{
 }
 .container button:nth-child(3){
    background-color: blue;
+}
+.result{
+    text-transform: uppercase;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
 }
