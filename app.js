@@ -23,16 +23,19 @@ for(var i = 0; i < btn.length; i++) {
          }
          if(wBtn == options[1] && index == 2){
             console.log("You lose against scissors")
+            result.textContent = "You lose against scissors"
          }
          else if(wBtn == options[1] && index == 0){
             console.log("Congratulations you won!")
+            result.textContent = "Congratulations you won!"
          }
          else if(wBtn == options[1] && index == 1){
-            console.log("Round draw!")
+            result.textContent = "Round draw!"
 
          }
          if(wBtn == options[2] && index == 0){
             console.log("You lose against rock")
+            
          }
          else if(wBtn == options[2] && index == 1){
             console.log("Congratulations you won!")
