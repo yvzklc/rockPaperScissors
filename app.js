@@ -22,11 +22,10 @@ for(var i = 0; i < btn.length; i++) {
 
          }
          if(wBtn == options[1] && index == 2){
-            console.log("You lose against scissors")
+         
             result.textContent = "You lose against scissors"
          }
          else if(wBtn == options[1] && index == 0){
-            console.log("Congratulations you won!")
             result.textContent = "Congratulations you won!"
          }
          else if(wBtn == options[1] && index == 1){
