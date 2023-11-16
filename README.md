@@ -10,7 +10,6 @@ This project is a classic rock-paper-scissors game. The user can choose rock, pa
 Instructions:
 
 Open the index.html file in a web browser.
-Click the "Play" button to start the game.
 Click the corresponding buttons to choose rock, paper, or scissors.
 The outcome of the game will be displayed on the screen.
 
